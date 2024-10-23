@@ -100,9 +100,7 @@ We need to compute the truth values for both formulas based on all possible trut
 
 ## <p align="center"> 2 - De Morgan’s laws </p>  
 ### *Take a close look at De Morgan’s laws.*  
-
 ###### ***De Morgan's laws are two important logical equivalences that express the negation of conjunctions and disjunctions:***
-
 
 > <p align="right"> In simple terms: </p>
 >
@@ -120,19 +118,12 @@ We need to compute the truth values for both formulas based on all possible trut
 </div>
 
 > ###### Inspired by Diogenes' encounter with Alexander the Great, where he asked Alexander to step aside as he blocked the sun.  
-- A:  
-  > "You are a king."  
-- B:  
-  > "You have the power to control the sun."  
-- ¬(A ∨ B):  
-  > "It is not the case that you are a king or you have the power to control the sun."  
-- ¬A ∧ ¬B:  
-  > "You are not a king and you do not have the power to control the sun."  
+- `A` = "You are a king."  
+- `B` = "You have the power to control the sun."  
+- `¬(A ∨ B)` = "It is not the case that you are a king or you have the power to control the sun."  
+- `¬A ∧ ¬B` = "You are not a king and you do not have the power to control the sun."  
 
 ---  
-</div>
-
-<div style="page-break-before: always;">
 
 ### <p align="left"> 2 b ) </p>  
 ## ***Negation of Conjunction***: 
@@ -142,26 +133,22 @@ We need to compute the truth values for both formulas based on all possible trut
 </div>
 
 > ###### Inspired by Diogenes' statement: "I am a citizen of the world."  
-- A:  
-  > "I am a citizen of Greece."
-- B:  
-  > "I am a citizen of another country."
-- ¬(A ∧ B):  
-  > "It is not the case that I am a citizen of Greece and I am a citizen of another country."
-- ¬A ∨ ¬B:  
-  > "Either I am not a citizen of Greece or I am not a citizen of another country."
+- `A` = "I am a citizen of Greece."
+- `B` = "I am a citizen of another country."
+- `¬(A ∧ B)` = "It is not the case that I am a citizen of Greece and I am a citizen of another country."
+- `¬A ∨ ¬B` = "Either I am not a citizen of Greece or I am not a citizen of another country."
 
 ---  
+</div>
 
-## <p align="center"> 3 - From Propositions to Truth Tables
- </p>  
+
+<div style="page-break-before: always;">
+
+## <p align="center"> 3 - From Propositions to Truth Tables </p>  
 
 ### *You have the following propositions*:  
-
-- `𝐴`:  
-  > It’s cold.  
-- `𝐵`:
-  > It’s breezy.  
+- `𝐴` = It’s cold.  
+- `𝐵` = It’s breezy.  
 
 Use these propositions to recreate the following sentences as propositional formulas and create a truth table for each one!
 
@@ -177,11 +164,6 @@ Use these propositions to recreate the following sentences as propositional form
   | F | T |   F   |  
   | F | F |   F   |  
 </div>
-
-</div>
-
-
-<div style="page-break-before: always;">
 
 - ### It’s cold but not breezy.
 <div align="center">
