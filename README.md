@@ -1,6 +1,6 @@
 # DSAIUebung-002 -- AussagenLogik  
 
-## <p align="center"> Using Truth Tables </p>  
+## <p align="center"> 1 - Using Truth Tables </p>  
 ### <p align="left"> 1 a ) </p>  
 ### *To* **prove the equivalence `𝑃 ≡ 𝑄`** *where*:  
   - `𝑃 ≡ ¬(𝐴 ∨ 𝐵)`  
@@ -44,7 +44,7 @@ We need to compute the truth values for both formulas based on all possible trut
 
 ---  
 
-# <p align="center"> 1 b </p>  
+### <p align="left"> 1 b ) </p>  
 
 ### *To* **prove the equivalence `𝑃 ≡ 𝐴`** *where*:  
   - `𝑃 ≡ 𝐴  ⟹  ¬𝐵`  
@@ -84,7 +84,7 @@ We need to compute the truth values for both formulas based on all possible trut
  > *<p align="right"> This equivalence also follows from the properties of implication and De Morgan's laws.</p>*  
 
 ---  
-## <p align="center"> De Morgan’s laws </p>  
+## <p align="center"> 2 - De Morgan’s laws </p>  
 ### *Take a close look at De Morgan’s laws.*  
 
 ###### ***De Morgan's laws are two important logical equivalences that express the negation of conjunctions and disjunctions:***
@@ -134,7 +134,89 @@ We need to compute the truth values for both formulas based on all possible trut
 - ¬A ∨ ¬B:  
   > "Either I am not a citizen of Greece or I am not a citizen of another country."
 
+---  
+
+## <p align="center"> 3 - From Propositions to Truth Tables
+ </p>  
+
+### *You have the following propositions*:  
 
 
+- `𝐴`:  
+  > It’s cold.  
+- `𝐵`:
+  > It’s breezy.  
 
+Use these propositions to recreate the following sentences as propositional formulas and create a truth table for each one!
+
+<div align="left">
+
+- ### It’s cold and breezy.  
+<div align="center">
+
+  | A | B | A ∧ B |  
+  |:-:|:-:|:------:|  
+  | T | T |   T   |  
+  | T | F |   F   |  
+  | F | T |   F   |  
+  | F | F |   F   |  
+</div>
+
+- ### It’s cold but not breezy.
+<div align="center">
+
+  | A | B | ¬A | ¬B | ¬A ∧ ¬B |  
+  |:-:|:-:|:--:|:--:|:-------:|  
+  | T | T |  F |  F |    F    |  
+  | T | F |  F |  T |    F    |  
+  | F | T |  T |  F |    F    |  
+  | F | F |  T |  T |    T    |  
+</div>
+
+- ### It’s not cold and not breezy.
+<div align="center">
+
+  | A | B | ¬A | ¬B | ¬A ∧ ¬B |  
+  |:-:|:-:|:--:|:--:|:-------:|  
+  | T | T |  F |  F |    F    |  
+  | T | F |  F |  T |    F    |  
+  | F | T |  T |  F |    F    |  
+  | F | F |  T |  T |    T    |  
+</div>
+
+- ### It’s either cold or breezy (or both).
+<div align="center">
+
+  | A | B | A ∨ B |  
+  |:-:|:-:|:------:|  
+  | T | T |   T   |  
+  | T | F |   T   |  
+  | F | T |   T   |  
+  | F | F |   F   |  
+</div>
+
+- ### It’s cold or breezy, but it’s not breezy when it’s cold.
+<div align="center">
+
+  | A | B | A → B | ¬(A → B) | (A ∨ B) ∧ ¬(A → B) |  
+  |:-:|:-:|:-----:|:--------:|:-------------------:|  
+  | T | T |   T   |     F    |          F          |  
+  | T | F |   F   |     T    |          T          |  
+  | F | T |   T   |     F    |          F          |  
+  | F | F |   T   |     F    |          F          |  
+</div>
+
+- ### When it’s breezy, it’s cold.
+<div align="center">
+
+  | A	| B |	¬B	| ¬B ∨ A |  
+  |:-:|:-:|:--:|:------:|  
+  | T | T |  F |    T   |  
+  | T | F |  T |    T   |  
+  | F | T |  F |    F   |  
+  | F | F |  T |    T   |  
+</div>
+</div>
+
+---  
 
