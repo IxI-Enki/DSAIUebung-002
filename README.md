@@ -2,6 +2,8 @@
 <!--                         made by               Jan Ritt       -       https://github.com/IxI-Enki                                                                                                                                                                     -->
 <!-- ============================================================================================================ -->
 
+<div style="page-break-before: always;">
+
 # DSAIUebung-002 -- AussagenLogik  
 
 ## <p align="center"> 1 - Using Truth Tables </p>  
@@ -46,7 +48,10 @@ We need to compute the truth values for both formulas based on all possible trut
 
 > *<p align="right"> This is an example of De Morgan's Law </p>*  
 
----  
+</div>
+
+
+<div style="page-break-before: always;">
 
 ### <p align="left"> 1 b ) </p>  
 
@@ -87,7 +92,12 @@ We need to compute the truth values for both formulas based on all possible trut
  
  > *<p align="right"> This equivalence also follows from the properties of implication and De Morgan's laws.</p>*  
 
+
 ---  
+ </div>
+
+<div style="page-break-before: always;">
+
 ## <p align="center"> 2 - De Morgan’s laws </p>  
 ### *Take a close look at De Morgan’s laws.*  
 
@@ -120,6 +130,9 @@ We need to compute the truth values for both formulas based on all possible trut
   > "You are not a king and you do not have the power to control the sun."  
 
 ---  
+</div>
+
+<div style="page-break-before: always;">
 
 ### <p align="left"> 2 b ) </p>  
 ## ***Negation of Conjunction***: 
@@ -164,6 +177,11 @@ Use these propositions to recreate the following sentences as propositional form
   | F | T |   F   |  
   | F | F |   F   |  
 </div>
+
+</div>
+
+
+<div style="page-break-before: always;">
 
 - ### It’s cold but not breezy.
 <div align="center">
@@ -222,6 +240,9 @@ Use these propositions to recreate the following sentences as propositional form
 </div>
 
 ---  
+</div>
+
+<div style="page-break-before: always;">
 
 ## <p align="center"> 4. Translate Complex Sentences </p>  
 
@@ -246,6 +267,8 @@ Use these propositions to recreate the following sentences as propositional form
 ### Logische Formel: `((M → (S ∧ (D ∨ C))) ∧ (¬F → (S ∧ (D ∨ C)))) ∧ (F → U)`
 
 --- 
+</div>
+
 
 <!-- ============================================================================================================ -->
 <!--                         made by               Jan Ritt       -       https://github.com/IxI-Enki                                                                                                                                                                     -->
