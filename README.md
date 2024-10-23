@@ -186,6 +186,9 @@ Use these propositions to recreate the following sentences as propositional form
   | F | T |  T |  F |    F    |  
   | F | F |  T |  T |    T    |  
 </div>
+</div>
+
+<div style="page-break-before: always;">
 
 - ### It’s either cold or breezy (or both).
 <div align="center">
