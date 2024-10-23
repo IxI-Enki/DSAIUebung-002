@@ -1,3 +1,7 @@
+<!-- ============================================================================================================ -->
+<!--                         made by               Jan Ritt       -       https://github.com/IxI-Enki                                                                                                                                                                     -->
+<!-- ============================================================================================================ -->
+
 # DSAIUebung-002 -- AussagenLogik  
 
 ## <p align="center"> 1 - Using Truth Tables </p>  
@@ -141,7 +145,6 @@ We need to compute the truth values for both formulas based on all possible trut
 
 ### *You have the following propositions*:  
 
-
 - `𝐴`:  
   > It’s cold.  
 - `𝐵`:
@@ -220,3 +223,30 @@ Use these propositions to recreate the following sentences as propositional form
 
 ---  
 
+## <p align="center"> 4. Translate Complex Sentences </p>  
+
+
+- ###### *Im Donauparkstadion trinke ich gerne einen Radler oder esse eine Bosna - aber nur wenn sie vegane Würstchen haben! Manchmal konsumiere ich auch beides.**  
+### Aussagenvariablen:   
+  >  - `R` = Ich trinke einen Radler im Donauparkstadion.   
+  >  - `B` = Ich esse eine Bosna im Donauparkstadion.   
+  >  - `V` = Die Bosna hat vegane Würstchen.   
+### Logische Formel: `(R ∨ B) ↔ V`   
+
+---  
+
+- ###### *Mittwochs gehen wir zur Schule und lernen DSAI oder C#, aber nur, wenn es kein Feiertag ist. Wenn es aber Feiertag ist, sind wir unglücklich.*
+### Aussagenvariablen:   
+  >  - `M` = Es ist Mittwoch.   
+  >  - `S` = Wir gehen zur Schule.   
+  >  - `D` = Wir lernen DSAI.   
+  >  - `C` = Wir lernen C#.   
+  >  - `F` = Es ist Feiertag.   
+  >  - `U` = Wir sind unglücklich.   
+### Logische Formel: `((M → (S ∧ (D ∨ C))) ∧ (¬F → (S ∧ (D ∨ C)))) ∧ (F → U)`
+
+--- 
+
+<!-- ============================================================================================================ -->
+<!--                         made by               Jan Ritt       -       https://github.com/IxI-Enki                                                                                                                                                                     -->
+<!-- ============================================================================================================ -->
