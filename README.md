@@ -239,6 +239,8 @@ Use these propositions to recreate the following sentences as propositional form
   >  - `V` = Die Bosna hat vegane Würstchen.   
 ### Logische Formel: `(R ∨ B) ↔ V`   
 
+### LÖSUNG: 
+
 ---  
 
 - ###### *Mittwochs gehen wir zur Schule und lernen DSAI oder C#, aber nur, wenn es kein Feiertag ist. Wenn es aber Feiertag ist, sind wir unglücklich.*
@@ -250,6 +252,8 @@ Use these propositions to recreate the following sentences as propositional form
   >  - `F` = Es ist Feiertag.   
   >  - `U` = Wir sind unglücklich.   
 ### Logische Formel: `((M → (S ∧ (D ∨ C))) ∧ (¬F → (S ∧ (D ∨ C)))) ∧ (F → U)`
+
+## LÖSUNG: `((M ∧ ¬F)  → (S ∧ (D ∨ C)) ∧ (F → U)`
 
 --- 
 </div>
