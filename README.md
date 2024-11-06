@@ -260,5 +260,5 @@ Use these propositions to recreate the following sentences as propositional form
 
 
 <!-- ============================================================================================================ -->
-<!--                         made by               Jan Ritt       -       https://github.com/IxI-Enki                                                                                                                                                                     -->
+<!--                         made by               Jan Ritt       -       https://github.com/IxI-Enki             -->
 <!-- ============================================================================================================ -->
